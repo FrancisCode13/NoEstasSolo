@@ -1,0 +1,114 @@
+body {
+	background-color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.about h3 {
+	    border-bottom: 2px solid #416190;
+	    margin: 3rem;
+}
+h3 {
+	color: #f46444;
+}
+
+header p {
+	margin: 30px;
+}
+ 
+.subrayar {
+  	color: #f46444;
+  	cursor: pointer;
+    transition: 1.2s;
+  
+}
+
+.subrayar:hover {
+   font-size: 30px;
+}
+
+.imgandtext {
+	margin: 3.2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.imgandtext div {
+	margin: 10px;
+}
+
+.imgandtext div img {
+	border-radius: 25px;
+	transition: 2s;
+}
+
+.imgandtext div img:hover {
+	border-radius: 50px;
+}
+
+
+.recent h3 {
+	border-bottom: 2px solid #416190;
+	    margin: 3rem;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	margin: 3rem;
+	padding: auto;
+}
+
+.row div {
+	margin: 0 100px;
+}
+
+.card img {
+	border-radius: 25px;
+	transition: 2s;
+	height: 300px;
+}
+
+.card img:hover {
+	border-radius: 50px;
+}
+
+.card h4 {
+	color: #f46444;
+}
+
+
+.card {
+	background-color: #416190;
+	padding: 3rem;
+	border-radius: 25px;
+	transition: 2s;
+	width: 300px;
+
+}
+
+.card a {
+	padding: 1rem;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 25px;
+	background-color: #f46444;
+	transition: .8s;
+
+
+}
+
+.card a:hover {
+	background-color: #f46410;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover {
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+	
+
+}
+
+.card p {
+	color: #fff;
+}
